@@ -224,7 +224,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 400;
 	}
 
 	em, i {
@@ -237,7 +237,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 600;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -254,7 +254,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 1.75em;
 	}
 
 	h3 {
@@ -276,7 +276,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1em;
+			font-size: 2em;
 		}
 
 		h3 {
@@ -1350,7 +1350,7 @@ input, select, textarea {
 			}
 
 			.poptrox-popup .caption {
-				display: none !important;
+				display: flex !important;
 			}
 
 			.poptrox-popup .closer,
@@ -2003,7 +2003,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 240px) {
+		@media screen and (max-width: 480px) {
 
 			#main .thumb {
 				-moz-transition-delay: 1.175s;
