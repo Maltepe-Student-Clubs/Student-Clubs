@@ -1286,27 +1286,7 @@ input, select, textarea {
 				color: #ffffff;
 			}
 
-		.poptrox-popup .loader {
-			-moz-animation: spinner 1s infinite linear !important;
-			-webkit-animation: spinner 1s infinite linear !important;
-			-ms-animation: spinner 1s infinite linear !important;
-			animation: spinner 1s infinite linear !important;
-			background-image: url("images/spinner.svg");
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: contain;
-			display: block;
-			font-size: 2em;
-			height: 2em;
-			left: 50%;
-			line-height: 2em;
-			margin: -1em 0 0 -1em;
-			opacity: 0.25;
-			position: absolute;
-			text-align: center;
-			top: 50%;
-			width: 2em;
-		}
+
 
 		.poptrox-popup:hover .closer,
 		.poptrox-popup:hover .nav-previous,
@@ -1343,23 +1323,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-			.poptrox-popup:before {
-				display: none;
-			}
-
-			.poptrox-popup .caption {
-				display: none !important;
-			}
-
-			.poptrox-popup .closer,
-			.poptrox-popup .nav-previous,
-			.poptrox-popup .nav-next {
-				display: none !important;
-			}
-
-		}
 
 /* Wrapper */
 
